@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  //   width: 100%;
+  min-height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+
+  button {
+    background: transparent;
+    padding: 0.5rem;
+    border: 2px solid rgb(68, 63, 63);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+    z-index: 1000;
+    &:hover {
+      background-color: rgb(68, 63, 63);
+      color: rgba(255, 255, 255, 0.966);
+    }
+    svg {
+      margin-left: 0.3rem;
+    }
+  }
+}
